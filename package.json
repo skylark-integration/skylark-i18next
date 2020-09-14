@@ -1,0 +1,35 @@
+{
+  "name": "skylark-i18next",
+  "description": "A version of i18next.js that ported to running on skylarkjs.",
+  "version": "0.9.0",
+  "keywords": [
+    "skylark",
+    "framework",
+    "vue"
+  ],
+  "homepage": "https://github.com/skylark-integration/skylark-i18next/",
+  "author": "Hudaokeji, Inc.",
+  "scripts": {
+    "build": "slib build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skylark-integration/skylark-i18next.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skylark-integration/skylark-i18next/issues"
+  },
+  "files": [
+    "demos/",
+    "dist/",
+    "src/",
+    "skins/"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "skylark-langx": "git+https://github.com/skylark-langx/skylark-langx.git#master"
+  },
+  "engines": {
+    "node": ">=0.10.1"
+  }
+}
